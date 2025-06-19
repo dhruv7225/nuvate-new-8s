@@ -120,7 +120,7 @@ export default function StitchITPage() {
                 variant="outline"
                 onClick={() => {
                   const link = document.createElement("a")
-                  link.href = "/StitchITBrochure.pdf" // Updated path
+                  link.href = "/StitchIT.pdf" // Updated path
                   link.download = "StitchIT-Brochure.pdf" // name the file
                   document.body.appendChild(link)
                   link.click()

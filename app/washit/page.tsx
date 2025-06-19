@@ -119,7 +119,7 @@ export default function WashITPage() {
             </Link>
               <Button size="lg" variant="outline" onClick={() => {
                 const link = document.createElement("a");
-                link.href = "/brochure.pdf"; // path in public folder
+                link.href = "/WashIT.pdf"; // path in public folder
                 link.download = "WashIt-Brochure.pdf"; // name the file
                 document.body.appendChild(link);
                 link.click();

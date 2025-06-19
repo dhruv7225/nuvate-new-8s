@@ -125,7 +125,7 @@ export default function DigitAilPage() {
             </Link>
               <Button size="lg" variant="outline" onClick={() => {
                 const link = document.createElement("a");
-                link.href = "/brochure.pdf"; // path in public folder
+                link.href = "/Digitail.pdf"; // path in public folder
                 link.download = "DigiTail-Brochure.pdf"; // name the file
                 document.body.appendChild(link);
                 link.click();

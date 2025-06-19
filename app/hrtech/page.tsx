@@ -121,7 +121,7 @@ export default function HRTechPage() {
               </Link>
               <Button size="lg" variant="outline" onClick={() => {
                 const link = document.createElement("a");
-                link.href = "/brochure.pdf"; // path in public folder
+                link.href = "/HR-Tech.pdf"; // path in public folder
                 link.download = "HrTech-Brochure.pdf"; // name the file
                 document.body.appendChild(link);
                 link.click();
