@@ -89,7 +89,7 @@ export default function AboutPage() {
             </span>
           </h1>
           <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-            Since 2014, Nuvatech Technology has been at the forefront of developing industry-specific software solutions
+            Since 2018, Nuvate Technology has been at the forefront of developing industry-specific software solutions
             that empower businesses to streamline operations, increase efficiency, and drive growth.
           </p>
         </div>

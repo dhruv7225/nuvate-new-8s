@@ -17,8 +17,8 @@ const services = [
     title: "StitchIT",
     tagline: "Cut To Pack Software Solution",
     description:
-      "Streamline your textile manufacturing process with our comprehensive software solution designed for cutting, packing, and inventory management.",
-    features: ["Automated Cutting Plans", "Inventory Tracking", "Quality Control", "Production Analytics"],
+      "Streamline your textile manufacturing process with our comprehensive software solution designed for single umbrella management.",
+    features: ["MRP and PPC Allocation", "Inventory Tracking", "Quality Control", "Production Analytics"],
     color: "from-pink-100 to-orange-100",
     textColor: "text-orange-600",
     cta: "Explore StitchIT",
@@ -29,7 +29,7 @@ const services = [
     tagline: "Complete IT Solution For Industrial Laundry",
     description:
       "Transform your laundry operations with our end-to-end management system covering customer management, billing, and operational efficiency.",
-    features: ["Customer Management", "Automated Billing", "Route Optimization", "Real-time Tracking"],
+    features: ["Customer Management", "Automated Billing", "Recipe Management", "Real-time Tracking"],
     color: "from-blue-100 to-cyan-100",
     textColor: "text-blue-600",
     cta: "Discover WashIT",
@@ -101,9 +101,9 @@ export default function ImprovedHomepage() {
       <section className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
-            { icon: Users, label: "Active Clients", value: "500+" },
-            { icon: Zap, label: "Projects Delivered", value: "1000+" },
-            { icon: Shield, label: "Years Experience", value: "10+" },
+            { icon: Users, label: "Active Clients", value: "200+" },
+            { icon: Zap, label: "Projects Delivered", value: "250+" },
+            { icon: Shield, label: "Years Experience", value: "8+" },
             { icon: Target, label: "Success Rate", value: "98%" },
           ].map((stat, index) => (
             <div key={index} className="space-y-2">

@@ -150,7 +150,7 @@ export default function WashITPage() {
       <section className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
-            { icon: Users, label: "Active Clients", value: "150+" },
+            { icon: Users, label: "Reduce Resource Consumption", value: "20%" },
             { icon: Zap, label: "Route Efficiency", value: "40%" },
             { icon: Shield, label: "Billing Accuracy", value: "98%" },
             { icon: Target, label: "ROI Timeline", value: "4 months" },

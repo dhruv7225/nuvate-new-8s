@@ -119,7 +119,7 @@ export default function EnhancedHeader() {
           <div className="flex items-center space-x-4">
             <Badge variant="secondary" className="bg-orange-600 text-white hover:bg-orange-700">
               <Star className="h-3 w-3 mr-1" />
-              Trusted by 500+ Businesses
+              Trusted by 200+ Businesses
             </Badge>
           </div>
         </div>
@@ -199,7 +199,7 @@ export default function EnhancedHeader() {
                             <Award className="h-8 w-8 text-orange-600" />
                             <div>
                               <h4 className="font-semibold text-slate-900">Industry Expertise</h4>
-                              <p className="text-sm text-slate-600">10+ years of domain knowledge</p>
+                              <p className="text-sm text-slate-600">8+ years of domain knowledge</p>
                             </div>
                           </div>
                           <div className="flex items-center space-x-3 p-3 bg-blue-50 rounded-lg">

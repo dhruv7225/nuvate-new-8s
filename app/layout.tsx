@@ -7,11 +7,11 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    default: "Nuvatech Technology - Leading ERP & Software Solutions Provider in India",
-    template: "%s | Nuvatech Technology",
+    default: "Nuvate Technology - Leading ERP & Software Solutions Provider in India",
+    template: "%s | Nuvate Technology",
   },
   description:
-    "Transform your business with Nuvatech's innovative ERP solutions. Specializing in StitchIT (garment manufacturing), WashIT (laundry management), DigitAil (e-commerce), and HR TECH. Trusted by 500+ businesses across India.",
+    "Transform your business with Nuvate's innovative ERP solutions. Specializing in StitchIT (garment manufacturing), WashIT (laundry management), DigitAil (e-commerce), and HR TECH. Trusted by 500+ businesses across India.",
   keywords: [
     "ERP software India",
     "garment manufacturing software",
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     "textile ERP",
     "industrial laundry software",
   ],
-  authors: [{ name: "Nuvatech Technology Pvt Ltd" }],
-  creator: "Nuvatech Technology Pvt Ltd",
-  publisher: "Nuvatech Technology Pvt Ltd",
+  authors: [{ name: "Nuvate Technology Pvt Ltd" }],
+  creator: "Nuvate Technology Pvt Ltd",
+  publisher: "Nuvate Technology Pvt Ltd",
   formatDetection: {
     email: false,
     address: false,
@@ -45,26 +45,26 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: "https://nuvatetechnology.com",
-    title: "Nuvatech Technology - Leading ERP & Software Solutions Provider in India",
+    title: "Nuvate Technology - Leading ERP & Software Solutions Provider in India",
     description:
       "Transform your business with Nuvatech's innovative ERP solutions. Specializing in garment manufacturing, laundry management, e-commerce, and HR solutions.",
-    siteName: "Nuvatech Technology",
+    siteName: "Nuvate Technology",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Nuvatech Technology - ERP Solutions",
+        alt: "Nuvate Technology - ERP Solutions",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nuvatech Technology - Leading ERP & Software Solutions Provider",
+    title: "Nuvate Technology - Leading ERP & Software Solutions Provider",
     description:
       "Transform your business with innovative ERP solutions for garment manufacturing, laundry management, e-commerce, and HR.",
     images: ["/twitter-image.jpg"],
-    creator: "@nuvatech",
+    creator: "@nuvate",
   },
   robots: {
     index: true,
@@ -87,8 +87,8 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Nuvatech Technology Pvt Ltd",
-  alternateName: "Nuvatech",
+  name: "Nuvate Technology Pvt Ltd",
+  alternateName: "Nuvate",
   url: "https://nuvatetechnology.com",
   logo: "https://nuvatetechnology.com/logo.png",
   description:

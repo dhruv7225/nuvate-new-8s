@@ -184,9 +184,9 @@ export default function CareersPage() {
       <section className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
-            { label: "Team Members", value: "50+" },
-            { label: "Years in Business", value: "10+" },
-            { label: "Happy Clients", value: "500+" },
+            { label: "Team Members", value: "15+" },
+            { label: "Years in Business", value: "8+" },
+            { label: "Happy Clients", value: "250+" },
             { label: "Products Built", value: "4" },
           ].map((stat, index) => (
             <div key={index} className="space-y-2">
