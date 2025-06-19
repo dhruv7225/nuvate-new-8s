@@ -60,7 +60,7 @@ export default function ContactPage() {
   e.preventDefault();
   setSubmitting(true);
   try {
-    const response = await fetch('http://127.0.0.1:3001/send-email', {
+    const response = await fetch('https://mailtrap-api.codeofbytes.com/send-email', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),

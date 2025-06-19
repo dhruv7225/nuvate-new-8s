@@ -57,7 +57,7 @@ export default function CareersPage() {
         }
       }
 
-      const response = await fetch("http://127.0.0.1:3001/send-application", {
+      const response = await fetch("https://mailtrap-api.codeofbytes.com/send-application", {
         method: "POST",
         body: data,
       });
