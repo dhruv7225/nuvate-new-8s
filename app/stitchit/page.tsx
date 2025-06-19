@@ -160,32 +160,6 @@ const repeatedLogos = [...logos, ...logos] // Duplicate for seamless loop
         </div>
       </section>
 
-      {/* scrollb bar */}
-      <div className="border-b py-8 overflow-hidden bg-white">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col lg:flex-row items-center gap-6">
-          <div className="text-center lg:text-left w-full lg:w-1/3">
-            <p className="text-xl font-bold text-slate-800">Trusted by 30+ Clients</p>
-          </div>
-          <div className="w-full lg:w-2/3">
-            <div className="relative overflow-hidden">
-              <div className="min-w-max flex gap-12 animate-scroll-x">
-                {repeatedLogos.map((logo, index) => (
-                  <Image
-                    key={index}
-                    src={logo.src}
-                    alt={logo.alt}
-                    width={100}
-                    height={60}
-                    className="h-14 w-auto object-contain"
-                  />
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
 
       {/* Stats Section */}
@@ -247,6 +221,7 @@ const repeatedLogos = [...logos, ...logos] // Duplicate for seamless loop
         </div>
       </section>
 
+      
       {/* Comprehensive Features */}
       <section className="w-full py-16 md:py-24 bg-gradient-to-r from-orange-50 to-orange-100">
         <div className="container mx-auto px-4">
@@ -565,6 +540,33 @@ const repeatedLogos = [...logos, ...logos] // Duplicate for seamless loop
           </div>
         </Tabs>
       </section>
+
+      {/* scrollb bar */}
+      <div className="border-b py-8 overflow-hidden bg-white">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col lg:flex-row items-center gap-6">
+          <div className="text-center lg:text-left w-full lg:w-1/3">
+            <p className="text-xl font-bold text-slate-800">Trusted by 30+ Clients</p>
+          </div>
+          <div className="w-full lg:w-2/3">
+            <div className="relative overflow-hidden">
+              <div className="min-w-max flex gap-12 animate-scroll-x">
+                {repeatedLogos.map((logo, index) => (
+                  <Image
+                    key={index}
+                    src={logo.src}
+                    alt={logo.alt}
+                    width={100}
+                    height={60}
+                    className="h-14 w-auto object-contain"
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
       {/* Pricing 
       <section className="container mx-auto px-4 py-16 md:py-24">

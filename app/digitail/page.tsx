@@ -34,6 +34,19 @@ import { FaDownload } from "react-icons/fa"
 
 
 export default function DigitAilPage() {
+  const BASE_URL = "https://nuvatetechnology.com/";
+
+  const logos = [
+    { src: `${BASE_URL}nuvate-image/logo/avadat.png`, alt: "Avadat" },
+    { src: `${BASE_URL}nuvate-image/logo/sonam_logo.png`, alt: "Sonam Collection" },
+    { src: `${BASE_URL}nuvate-image/logo/kapoor_logo.png`, alt: "Kapoor Enterprises" },
+    { src: `${BASE_URL}nuvate-image/logo/zedex_clothing.png`, alt: "Zedex Clothing" },
+    { src: `${BASE_URL}nuvate-image/logo/Fashion-Fair.png`, alt: "Fashion Fair" },
+    { src: `${BASE_URL}nuvate-image/logo/Kajal-Kids.png`, alt: "Kajal Kids" },
+  ]
+
+  const repeatedLogos = [...logos, ...logos] // Duplicate for seamless loop
+
   const features = [
     {
       title: "Multi-Channel Integration",
@@ -536,6 +549,35 @@ export default function DigitAilPage() {
           </div>
         </Tabs>
       </section>
+
+      {/* scrollb bar */}
+      <div className="border-b py-8 overflow-hidden bg-white">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col lg:flex-row items-center gap-6">
+          <div className="text-center lg:text-left w-full lg:w-1/3">
+            <p className="text-xl font-bold text-slate-800">Trusted by 30+ Clients</p>
+          </div>
+          <div className="w-full lg:w-2/3">
+            <div className="relative overflow-hidden">
+              <div className="min-w-max flex gap-12 animate-scroll-x">
+                {repeatedLogos.map((logo, index) => (
+                  <Image
+                    key={index}
+                    src={logo.src}
+                    alt={logo.alt}
+                    width={100}
+                    height={60}
+                    className="h-14 w-auto object-contain"
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>     
+
+
 
       {/* Pricing 
       <section className="container mx-auto px-4 py-16 md:py-24">
