@@ -282,39 +282,39 @@ const repeatedLogos = [...logos, ...logos] // Duplicate for seamless loop
                 title: "Order Management",
                 description:
                   "Efficiently manage customer orders, from initial inquiry to final delivery, with comprehensive order tracking.",
-                image: "https://www.hotwaxsystems.com/hubfs/Imported_Blog_Media/AdobeStock_463292493-scaled-3.jpeg",
+                image: `/images/StitchIT/Order-Management.png`,
               },
               {
                 title: "Production Planning",
                 description:
                   "Create optimized production plans based on order requirements, resource availability, and delivery schedules.",
                 image:
-                  "https://www.projectmanager.com/wp-content/uploads/2023/11/Production-Order-for-Manufacturing.jpg",
+                  "/images/StitchIT/Production-Planning.png",
               },
-              {
-                title: "Cutting Management",
-                description:
-                  "Generate efficient cutting plans that minimize fabric wastage while meeting production requirements.",
-                image: "https://deltatextilesolutions.com/wp-content/uploads/2019/04/cortando-tecido-enfestado-1.jpg",
-              },
+              // {
+              //   title: "Cutting Management",
+              //   description:
+              //     "Generate efficient cutting plans that minimize fabric wastage while meeting production requirements.",
+              //   image: "https://deltatextilesolutions.com/wp-content/uploads/2019/04/cortando-tecido-enfestado-1.jpg",
+              // },
               {
                 title: "Production Tracking",
                 description:
                   "Track production progress in real-time across all stages, identifying bottlenecks and optimizing workflow.",
                 image:
-                  "https://cdn.prod.website-files.com/644fcf9703178f069710e97f/66e35c31b748ad0d7aa10e5d_Production%20tracking%20software%20guide.png",
+                  "/images/StitchIT/Production-Tracking.png",
               },
               {
                 title: "Quality Control",
                 description:
                   "Implement comprehensive quality control processes to ensure consistent product quality and customer satisfaction.",
-                image: "https://vietnamcleanroom.com/vcr-media/23/3/27/7-nguyen-tac-quan-ly-chat-luong-6.jpg",
+                image: "/images/StitchIT/Quality-Control.png",
               },
               {
                 title: "Packing & Shipping",
                 description:
                   "Streamline packing and shipping processes with automated documentation and tracking capabilities.",
-                image: "https://cashflowinventory.com/blog/wp-content/uploads/2023/03/pick-and-pack-process.webp",
+                image: "/images/StitchIT/Packing-and-Shipping.png",
               },
             ].map((step, index) => (
               <div key={index} className="relative">
