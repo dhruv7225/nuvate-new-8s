@@ -266,35 +266,34 @@ export default function WashITPage() {
                 title: "Customer Registration",
                 description:
                   "Easily register new customers with detailed profiles, service preferences, and pricing agreements.",
-                image: "/placeholder.svg?height=300&width=500&text=Customer+Registration",
+                image: "/images/WashIT/Customer-Registration.png",
               },
               {
                 title: "Order Processing",
                 description: "Efficiently process customer orders with automated scheduling and route planning.",
-                image: "/placeholder.svg?height=300&width=500&text=Order+Processing",
+                image: "/images/WashIT/Order-Processing.png",
               },
               {
                 title: "Pickup & Delivery",
                 description: "Optimize pickup and delivery routes with real-time tracking and customer notifications.",
-                image: "/placeholder.svg?height=300&width=500&text=Pickup+Delivery",
+                image: "/images/WashIT/Pickup-and-Delivery.png",
               },
-              {
-                title: "Processing & Quality Control",
-                description:
-                  "Track laundry processing with detailed workflow management and quality control checkpoints.",
-                image: "/placeholder.svg?height=300&width=500&text=Processing",
-              },
+              // {
+              //   title: "Processing & Quality Control",
+              //   description:
+              //   "Track laundry processing with detailed workflow management and quality control checkpoints.",
+              // },
               {
                 title: "Billing & Invoicing",
                 description:
-                  "Generate accurate invoices automatically based on service provided and pricing agreements.",
-                image: "/placeholder.svg?height=300&width=500&text=Billing",
+                "Generate accurate invoices automatically based on service provided and pricing agreements.",
+                image: "/images/WashIT/Billing-and-Invoicing.png",
               },
               {
                 title: "Reporting & Analytics",
                 description:
-                  "Gain valuable insights into your business performance with comprehensive reporting and analytics.",
-                image: "/placeholder.svg?height=300&width=500&text=Reporting",
+                "Gain valuable insights into your business performance with comprehensive reporting and analytics.",
+                image: "/images/WashIT/Reporting-and-Analytics.png",
               },
             ].map((step, index) => (
               <div key={index} className="relative">
