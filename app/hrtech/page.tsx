@@ -288,37 +288,37 @@ export default function HRTechPage() {
                 title: "Employee Onboarding",
                 description:
                   "Streamline the onboarding process with digital documentation, automated workflows, and self-service options.",
-                image: "/placeholder.svg?height=300&width=500&text=Employee+Onboarding",
+                image: "/images/HRTech/Employee-Onboarding.png",
               },
               {
                 title: "Attendance Tracking",
                 description:
-                  "Track employee attendance with biometric integration, shift management, and leave management.",
-                image: "/placeholder.svg?height=300&width=500&text=Attendance+Tracking",
+                "Track employee attendance with biometric integration, shift management, and leave management.",
+                image: "/images/HRTech/Attendence-Tracking.png",
               },
               {
                 title: "Payroll Processing",
                 description:
-                  "Automate salary calculations, tax deductions, and compliance with labor laws and regulations.",
-                image: "/placeholder.svg?height=300&width=500&text=Payroll+Processing",
+                "Automate salary calculations, tax deductions, and compliance with labor laws and regulations.",
+                image: "/images/HRTech/Payroll-Processing.png",
               },
               {
                 title: "Compliance Management",
                 description:
-                  "Stay compliant with labor laws, tax regulations, and statutory requirements with automated updates.",
-                image: "/placeholder.svg?height=300&width=500&text=Compliance+Management",
+                "Stay compliant with labor laws, tax regulations, and statutory requirements with automated updates.",
+                image: "/images/HRTech/Compilance-Management.png",
               },
               {
                 title: "Performance Management",
                 description:
-                  "Set goals, track performance, and conduct reviews to foster employee growth and development.",
-                image: "/placeholder.svg?height=300&width=500&text=Performance+Management",
+                "Set goals, track performance, and conduct reviews to foster employee growth and development.",
+                image: "/images/HRTech/Performance-Management.png",
               },
               {
                 title: "Reporting & Analytics",
                 description:
-                  "Generate comprehensive reports on payroll, attendance, performance, and other HR metrics.",
-                image: "/placeholder.svg?height=300&width=500&text=Reporting+Analytics",
+                "Generate comprehensive reports on payroll, attendance, performance, and other HR metrics.",
+                image: "/images/HRTech/Reporting-and-Anakytics.png",
               },
             ].map((step, index) => (
               <div key={index} className="relative">
