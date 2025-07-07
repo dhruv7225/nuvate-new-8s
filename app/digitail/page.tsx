@@ -293,37 +293,37 @@ export default function DigitAilPage() {
                 title: "Channel Integration",
                 description:
                   "Connect your online store, marketplaces, and social media channels to centralize your e-commerce operations.",
-                image: "/placeholder.svg?height=300&width=500&text=Channel+Integration",
+                image: "/images/Digitail/Channel-Integration.png",
               },
               {
                 title: "Product Management",
                 description:
-                  "Manage your product catalog, pricing, and inventory across all sales channels from a single platform.",
-                image: "/placeholder.svg?height=300&width=500&text=Product+Management",
+                "Manage your product catalog, pricing, and inventory across all sales channels from a single platform.",
+                image: "/images/Digitail/Product-Management.png",
               },
               {
                 title: "Order Processing",
                 description:
-                  "Efficiently process orders from all channels with automated workflows and fulfillment options.",
-                image: "/placeholder.svg?height=300&width=500&text=Order+Processing",
+                "Efficiently process orders from all channels with automated workflows and fulfillment options.",
+                image: "/images/Digitail/Order-Processing.png",
               },
               {
                 title: "Inventory Management",
                 description:
-                  "Keep track of inventory levels across all channels and locations with real-time synchronization.",
-                image: "/placeholder.svg?height=300&width=500&text=Inventory+Management",
+                "Keep track of inventory levels across all channels and locations with real-time synchronization.",
+                image: "/images/Digitail/Inventory-Management.png",
               },
               {
                 title: "Customer Engagement",
                 description:
-                  "Build lasting relationships with customers through personalized marketing and communication.",
-                image: "/placeholder.svg?height=300&width=500&text=Customer+Engagement",
+                "Build lasting relationships with customers through personalized marketing and communication.",
+                image: "/images/Digitail/Customer-Engagement.png",
               },
               {
                 title: "Analytics & Growth",
                 description:
-                  "Gain valuable insights into your business performance and identify opportunities for growth.",
-                image: "/placeholder.svg?height=300&width=500&text=Analytics+Growth",
+                "Gain valuable insights into your business performance and identify opportunities for growth.",
+                image: "/images/Digitail/Analytics-aand-Growth.png",
               },
             ].map((step, index) => (
               <div key={index} className="relative">
